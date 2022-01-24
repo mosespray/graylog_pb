@@ -24,7 +24,7 @@
     graylog_version: 4.2
     graylog_install_java: True
     graylog_password_secret: "1wL1pqdIyKtyKCTozjfFb4lCaj8ZGFJfNunsTaOBz3cn5tB8vKuyqeZCeF4ry8L2VgNvskdLBxgtTx0SetKSRxZ4uXjuewLU" # Insert your own here. Generate with: pwgen -s 96 1
-    graylog_root_password_sha2: "pfqqzt64" # Insert your own root_password_sha2 here.
+    graylog_root_password_sha2: "65b9a53056721660f2b5f999cc97e0e172ff50bd7035978d5d0e4fb13418db7c" # Insert your own root_password_sha2 here.
     graylog_http_bind_address: "{{ ansible_default_ipv4.address }}:9000"
     graylog_http_publish_uri: "http://{{ ansible_default_ipv4.address }}:9000/"
     graylog_http_external_uri: "http://{{ ansible_default_ipv4.address }}:9000/"
