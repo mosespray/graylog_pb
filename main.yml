@@ -1,6 +1,6 @@
 ---
 - name: Install and configure Graylog2
-  hosts: mail
+  hosts: graylog
   become: True
   vars:
     #Elasticsearch vars
